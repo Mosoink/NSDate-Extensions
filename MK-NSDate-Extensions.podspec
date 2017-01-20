@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "Add podspec, fork from https://github.com/erica/NSDate-Extensions "
   s.source       = { :git => 'https://github.com/Mosoink/NSDate-Extensions.git' }
   s.license      = 'MIT'
-  s.source_files = 'NSDate-Extensions'
+  s.source_files = '*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
   s.tvos.deployment_target = '9.0'
